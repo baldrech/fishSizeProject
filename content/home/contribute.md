@@ -35,6 +35,8 @@ Are you interested? We need you! Please join our project. Even small contributio
 
 1.	Help us collect data on fish sizes in your local area. Whether you are an angler, artisanal fisher, spearfishing enthusiast, diver, or like going to a local fish market, you can tell us what you see. Our app will be launching soon, so please [contact us](mailto:asta.audzijonyte@utas.edu.au) if you would like to test it in your local area.
 
+![](recreationalFishing.png)
+
 2.	Help us collect historical data and photos. You can use our app or [get in touch](mailto:asta.audzijonyte@utas.edu.au) with us. 
 
 3.	Get in touch if you are a local fish expert and would like to help with fish identification.

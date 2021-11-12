@@ -41,6 +41,17 @@ Everything that is not text and markdowns is going to be stored in `assets/media
 
 At the moment, deploying the website is not as streamlined as I would like it to be. One needs to create a fork with only the content of the public folder in it (remember to run `hugo` to update the public folder). Then this fork needs to be uploaded on Hostinger. Sometimes it is done automaticaly, sometimes not, sometimes there is an error. Once the files in `\public` are on Hostinger, the website can be deployed to fishsizeproject.org. As written in *current status*, the public website might differ to your local version. If it does, send me an email (romain.forestier@utas.edu.au) with the issue.
 
+## Trouble shooting
+
+`blogdown::serve_site()` stopped working for some reasons. Fix is here: http://www.mysmu.edu/faculty/jwwang/post/building-your-website-with-hugo-and-rmarkdown/
+
+It could be linked that Hugo was updated...
+
+The error is: `Error: Error building site: logged 1 error(s)` so not really helpful.
+
+What I did to solve it was updating Hugo and set the right hugo version where needed. Run `blogdown::check_site` and it will tell you where. Then I temporarily removed the “redirects” and “headers” output types from config.yaml under the config folder (not the root folder) and ran `hugo mod clean` and `hugo mod tidy`. This cleared the cache. I checked that `serve_site` was working and it did. Put back "redirects" and "headers" and it was still working.
+WTF...
+
 ## Useful links
 
 Summary of widgets

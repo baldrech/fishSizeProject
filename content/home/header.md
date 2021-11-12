@@ -22,12 +22,16 @@ title: Aim
 
 # Section design
 design:
-  # Use a 1-column layout
+  # column layout
   columns: "3"
-  # Use a dark navy background with light text.
   background:
     color: '#202958'
     text_color_light: true
+    # image: seasurface.png
+    # image_darken: 1.0
+    # image_parallax: true
+    # image_position: center
+    # image_size: cover
   #view: 3
 
 ---
