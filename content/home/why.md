@@ -18,9 +18,9 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: RLS2.jpg
+    image: RLS1.jpg
     image_darken: 1.0
-    image_parallax: true
+    image_parallax: false
     image_position: center
     image_size: cover
     text_color_light: true
