@@ -30,6 +30,7 @@ design:
 
 In aquatic ecosystems, and especially for fish, your size determines who you are. Big fish are important for populations, ecosystems and for people. They are also fascinating and beautiful, as reflected in stories and myths of many cultures. But fish sizes are changing, and fish size diversity is rapidly being lost. This project aims to document how much of fish size diversity has been lost locally and globally, how can we restore it, and why it is important. 
 
+![](RLS1.jpg)
 
 <!---
 Ever heard **“the fish were bigger in my day”**?
